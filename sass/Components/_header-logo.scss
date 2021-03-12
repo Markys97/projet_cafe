@@ -1,0 +1,17 @@
+.header-logo{
+    width: 50px;
+    height: 60%;
+    padding-left: 10px;
+    &:hover{
+        background-color: $color-hover;
+    }
+  
+    span{
+        display: block;
+        margin-top: 5px;
+        width: 60%;
+        height: 2px;
+        background-color:black;
+        
+    }
+}

@@ -1,0 +1,22 @@
+.pagination__items{
+    width: 40px;
+    height: 30px;
+    display: inline-block;
+    color: black;
+    padding-top: 5px;
+
+    text-align: center;
+    &__active{
+        background-color:black;
+        color: white;
+        &:hover{
+            background-color:$color-hover !important;
+        color: black!important;
+        }
+    }
+    &:hover{
+        background-color:black;
+        color: white;
+    }
+
+}

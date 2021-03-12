@@ -1,0 +1,11 @@
+.footer-bloc__tags{
+    display: inline-block;
+    background-color: $color-hover;
+    width: 75px;
+    margin:2px;
+    text-align: center;
+    &--active{
+        background:#000;
+        color:#fff;
+    }
+}

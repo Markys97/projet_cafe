@@ -1,0 +1,22 @@
+.about{
+    margin-top: 30px;
+    text-align: center;
+    &__img{
+        margin-top:20px;
+        width: 75%;
+    }
+    &__citation{
+        font-weight:bold;
+        font-size:15px;
+        padding: 10px;
+        &--second{
+            font-weight:400;
+           padding: 10px;
+        }
+    }
+    &__descriptionChef{
+        font-family: karma;
+        font-size: 15px;
+    }
+
+}

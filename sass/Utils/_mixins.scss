@@ -1,0 +1,11 @@
+@mixin mobile-only{
+    @media screen and (max-width:769px){
+        @content
+    }
+};
+
+@mixin separateur($hauteur:10px) {
+    color: rgba(129,129,129,.1);
+    height: 0.1rem;
+    margin-top: $hauteur;
+}
